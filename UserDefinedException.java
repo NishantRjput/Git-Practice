@@ -16,6 +16,7 @@ class OwnCustomException extends Throwable
             }
             else
             {
+                System.out.println("normal flow program execution");
                 System.out.println("b :"+b+" is greater.");
             }
         } catch (OwnCustomException e) {
